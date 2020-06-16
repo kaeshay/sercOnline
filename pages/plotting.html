@@ -6,11 +6,36 @@
 	<link rel="stylesheet" type="text/css" href="../styles/room.css">
 	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+	<style>
+		#timeline{
+			width:300px;
+			position: absolute;
+    		top:200px;
+    		left:420px;
+		}
+		#paper{
+			width:150px;
+			position: absolute;
+    		top:200px;
+    		left:730px;
+		}
+		#invitation{
+			width:60px;
+			position: absolute;
+    		top:200px;
+    		left:890px;
+		}
+	</style>
 </head>
 <body>
 	<div id="containment-wrapper">
-		<!-- <img class="draggable item avatar" src="../assets/welcomeWall/welcome-wall.png"> -->
 		<img class="room" src="../assets/plotting/plotting.jpg">
+		<a href = "../assets/plotting/tracking-timeline.jpg">
+		<img id="timeline" class="draggable big-item" src="../assets/plotting/tracking-timeline-small.jpg"></a>
+		<a href = "../assets/plotting/engineering-paper.jpg">
+		<img id="paper" class="draggable big-item" src="../assets/plotting/engineering-paper-small.jpeg"></a>
+		<a href = "../assets/plotting/transform-democracy.jpg">
+		<img id="invitation" class="draggable big-item" src="../assets/plotting/transform-democracy-small.jpeg"></a>
 	</div>
 </body>
 <script type="text/javascript" src="../scripts/draggable.js"></script>
