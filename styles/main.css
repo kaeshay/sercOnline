@@ -1,0 +1,71 @@
+  body {
+    transform: scale(.67);
+    transform-origin: 0 0;
+  }
+  .draggable{
+      cursor:move;
+  }
+
+  .avatar{
+    width: 80px;
+  }
+
+  .enterable:hover{
+  }
+
+  .item{
+    width:15%;
+  }
+
+  .inventory{
+    display:none;
+    border:2px dashed #ccc;
+    width:400px;
+    height:400px;
+  }
+
+  #containment-wrapper {
+      width: 1692px;
+      height:1564px;
+      border:2px solid #ccc;
+      padding: 10px;
+      background-image: url('../assets/serc-map.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  #containment-wrapper div{
+      position: absolute;
+  }
+
+  /*positions*/
+
+  #cooking {
+    position: absolute;
+    top:680px;
+    left:24px;
+  }
+
+  #healing {
+    position: absolute;
+    top:155px;
+    left:92px;
+  }
+
+  #making {
+    position: absolute;
+    top:480px;
+    left:1150px;
+  }
+
+  #plotting {
+    position: absolute;
+    top:100px;
+    left:820px;
+  }
+
+  #welcomeWall {
+    position: absolute;
+    top:784px;
+    left:1390px;
+  }
